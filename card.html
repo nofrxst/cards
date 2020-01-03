@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./styles/index.css">
+  
+  <title>CARD</title>
+  
+</head>
+<style>
+*{
+  padding: 0px;
+  margin: 0px;
+}
+article{
+  display: inline-block;
+  background-color: white;
+  text-align: left;
+  margin-top: 30px;
+  border-top: 10px ;
+  border-radius: 18px;
+  box-shadow: 8px 8px 20px rgb(10, 10, 10);
+  position: relative;
+}
+img{
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  
+}
+a{
+  text-decoration: none;
+  
+}
+
+.letters a{
+  color: white;
+}
+
+.letters{
+  position: absolute;
+  color: white;
+  width: 100%;
+  bottom: 25%;
+  background: rgba(0, 0, 0, 0.507);
+  text-align: center;
+  font-family: arial;
+}
+
+
+body{
+  background-image: url("./images/wall1.jpg");
+  background-size: 100%;
+  text-align: center
+  ;
+}
+
+.tabla ul{
+  display: flex;
+  padding:20px;
+  justify-content: space-between;
+  
+}
+
+.tabla p{
+  font-size: 30px;
+  font-family: arial;
+}
+
+li{
+  list-style: none;
+}
+.bot{
+  text-align: center;
+  border: solid 1px aqua ;
+  border-radius: 20px;
+  background-color: rgb(2, 174, 241);
+  padding: 5px;
+  
+  margin:auto;
+  color: white;
+ 
+}
+.botom{
+  padding: 10px;
+  padding-left: 40%;
+}
+
+.bot:hover{
+  background-color: black;
+  border: solid 1px white ;
+  transition: .5s;
+  
+}
+</style>
+
+<body>
+ 
+  <article>
+<div >    
+
+    <figure>
+      <img src="./images/pic1.jpg" height="400" width="400" alt="">
+    
+    </figure>
+  </div >
+
+  <div  class="letters">  
+    <h1>JACKELINE </h1>
+    <a href="">@Jack</a>
+  </div>
+
+
+    <div class="tabla">
+    <ul>
+      <li> <p>391</p> <a href="">Tweet</a> </li>
+      <li> <p>967</p> <a href="">Following</a> </li>
+      <li> <p>872</p> <a href="">Followers</a> </li>
+    </ul>
+    </div>
+
+    <div class="botom">
+   <a href="" class="bot" >
+     <i class="fab fa-twitter"></i>  Follow </a>
+    </div>
+  </article>
+  <script src="https://kit.fontawesome.com/43f3cc2ec8.js" crossorigin="anonymous"></script>
+</body>
+</html>
